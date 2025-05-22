@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="Assets/Logo-blue.png">
+    <title>Stylish CSS</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Assets/Logo-blue.png">
+        </div>
+        <nav>
+            <div>
+                <ul>
+                    <li> <a class="nav-link" href="#Welcome"><i class="fa-solid fa-house"></i> Home</a> </li>
+                    <li> <a class="nav-link" href="#AboutUS"><i class="fa-solid fa-circle-info"></i> About</a>
+                    </li>
+                    <li> <a class="nav-link" href="#OurServices"><i class="fa-solid fa-gear"></i> Services</a>
+                    </li>
+                    <li> <a class="nav-link" href="#OurPortfolio"><i class="fa-solid fa-suitcase"></i>
+                            Portfolio</a> </li>
+                    <li> <a class="nav-link" href="#prodacts"><i class="fa-solid fa-cart-shopping"></i>
+                            Products</a> </li>
+                    <li> <a class="nav-link" href="#CustomerTestimonials"><i class="fa-solid fa-comment"></i>
+                            Testimonials</a></li>
+                    <li> <a class="nav-link" href="#ContactUs"><i class="fa-solid fa-envelope-open"></i>
+                            Contact</a> </li>
+                </ul>
+            </div>
+            <div>
+                <button><i class="fa-solid fa-user-plus"></i> Sign Up</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="Welcome">
+            <p>
+                Welcome to our elegant page<br><br>
+                This page showcases variety of CSS properties
+            </p>
+        </section>
+        <section id="AboutUS">
+            <h2 style="color: white;">About US <i class="fa-solid fa-people-group"></i></h2>
+            <p>We are a company dedicated to delivering high-quality web<br> solutions with elegance and sophistication.</p>
+        </section>
+        <section id="OurServices">
+            <h2>Our Services <i class="fa-solid fa-star"></i></h2>
+            <p><i class="fa-solid fa-code"></i>Web Development</p>
+            <p><i class="fa-solid fa-paintbrush"></i>Graphic Design</p>
+            <p><i class="fa-solid fa-magnifying-glass"></i>SEO Optimization</p>
+        </section>
+        <section id="OurPortfolio">
+            <h2>Our Portfolio <i class="fa-solid fa-folder-open"></i></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Project A</td>
+                        <td>An innovative web development project.</td>
+                    </tr>
+                    <tr>
+                        <td>Project B</td>
+                        <td>A creative graphic design project</td>
+                    </tr>
+                    <tr>
+                        <td>Project C</td>
+                        <td>An effective SEO optimization project</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="prodacts">
+            <div>
+                <img src="Assets/Product1.jpg" alt="Product1">
+                <p>Product 1</p>
+                <p>Description of product 1.</p>
+                <button>Buy Now</button>
+            </div>
+            <div>
+                <img src="Assets/Product2.jpg" alt="Product2">
+                <p>Product 2</p>
+                <p>Description of product 2.</p>
+                <button>Buy Now</button>
+            </div>
+            <div>
+                <img src="Assets/Product3.jpg" alt="Product3">
+                <p>Product 3</p>
+                <p>Description of product 3.</p>
+                <button>Buy Now</button>
+            </div>
+        </section>
+        <section id="CustomerTestimonials">
+            <h2>Customer Testimonials<i class="fa-solid fa-quote-left"></i></h2>
+            <div>
+                <p>"This company provides the best service I've ever experienced!"</p>
+                <h4> - Happy Customer</h4>
+            </div>
+            <div>
+                <p>"Their products are top-notch and their support is excellent."</p>
+                <h4>- Satisfied Client</h4>
+            </div>
+        </section>
+        <section id="OurTeam">
+            <h2>Our Team<i class="fa-solid fa-people-group"></i></h2>
+            <div>
+                <img src="Assets/Member1.jpg" alt="John Doe's photo">
+                <p>John Doe</p>
+                <p>CEO & Founder</p>
+            </div>
+            <div>
+                <img src="Assets/Member2.jpg" alt="Michael Brown's photo">
+                <p>Michael Brown</p>
+                <p>Lead Developer</p>
+            </div>
+            <div>
+                <img src="Assets/Member3.jpg" alt="Jane Smith's photo">
+                <p>Jane Smith</p>
+                <p>Marketing Director</p>
+            </div>
+        </section>
+        <section id="ContactUs">
+            <h2>Contact Us <i class="fa-solid fa-envelope"></i></h2>
+            <form action="index.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="example@gmail.com">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send" id="submit">
+            </form>
+        </section>
+    </main>
+    <footer><p>&copy; 2024 Elegant Web Solutions</p></footer>
+</body>
+
+</html>
